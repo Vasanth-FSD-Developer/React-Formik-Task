@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { AiFillHome } from "react-icons/ai";
 import { MdSpaceDashboard } from "react-icons/md";
 import { BiSolidBookAdd } from "react-icons/bi";
-import { FaUsers } from "react-icons/fa";
+
 import { useLocation } from 'react-router-dom';
 
 const TopBar = () => {  
@@ -16,7 +16,7 @@ const TopBar = () => {
   return (
     <Navbar expand="lg" data-bs-theme="dark" bg='dark' className="bg-body-tertiary">
     <Container>
-      <Navbar.Brand><FaUsers className='navIcon' /> User Details</Navbar.Brand>
+      <Navbar.Brand></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto  text-center">
