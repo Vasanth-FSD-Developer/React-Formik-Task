@@ -6,11 +6,13 @@ This React application utilizes React Router, Bootstrap, and Axios to create a s
 Each book record contains the title, author, ISBN number, and publication date.
 
 # Home 
-<img src="" />
+<img src="home1" />
 
 # DashBoard
+<img src="dashboard1" />
 
 # AddBook
+<img src="edit" />
 
 
 
